@@ -34,4 +34,9 @@ if [ "$air021a1" == "true" ]; then
     ./risc_nvidia_dailybuild.sh
 fi
 
+#AIR075A1_projects
+if [ "$air075a1" == "true" ]; then
+    ./risc_nvidia_dailybuild.sh
+fi
+
 echo "[ADV] All done!"
